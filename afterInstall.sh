@@ -1,4 +1,5 @@
 #!/bin/bash
+cp .local $HOME/
 sudo pacman-key --init
 sudo pacman-key --recv-keys 66576FE3626A02F272FF2933330E1ADB4E5E62AA
 sudo pacman-key --lsign-key 66576FE3626A02F272FF2933330E1ADB4E5E62AA
