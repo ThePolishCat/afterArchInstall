@@ -9,6 +9,7 @@ sudo pacman -Syy
 sudo pacman -S  --noconfirm zsh yay nerd-fonts
 chsh -s /bin/zsh
 curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+cp .zshrc $HOME/
 echo zmodule romkatv/powerlevel10k --use degit >> .zimrc
 zimfw install
 
